@@ -49,5 +49,15 @@
 &trans  &trans           &trans            &trans                &trans                 &trans     &trans     &trans     &trans          &trans     &trans      &trans
             >;
         };
+
+        nav {
+            bindings = <
+&trans  &trans  &trans         &trans                  &trans             &trans  &trans              &trans         &trans        &trans         &trans  &trans
+&trans  &trans  &trans         &kp LC(LA(LEFT))        &kp RA(RC(RIGHT))  &trans  &kp LA(LEFT)        &kp LG(MINUS)  &kp RG(PLUS)  &kp RA(RIGHT)  &trans  &trans
+&trans  &trans  &kp LG(GRAVE)  &kp LG(LA(LEFT_ARROW))  &kp RG(RA(RIGHT))  &trans  &kp LEFT_ARROW      &kp DOWN       &kp UP        &kp RIGHT      &trans  &trans
+&trans  &trans  &trans         &kp LC(LEFT)            &kp RC(RIGHT)      &trans  &kp LG(LEFT_ARROW)  &trans         &trans        &kp RG(RIGHT)  &trans  &trans
+&trans  &trans  &trans         &trans                  &trans             &trans  &trans              &trans         &trans        &trans         &trans  &trans
+            >;
+        };
     };
 };
