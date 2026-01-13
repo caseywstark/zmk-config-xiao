@@ -59,5 +59,15 @@
 &trans  &trans  &trans         &trans                  &trans             &trans  &trans              &trans         &trans        &trans         &trans  &trans
             >;
         };
+
+        sys {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans             &trans           &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans             &trans           &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans             &trans           &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &kp LG(LC(Q))  &trans  &trans  &trans             &trans           &trans      &trans  &trans
+            >;
+        };
     };
 };
